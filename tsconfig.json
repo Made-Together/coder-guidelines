@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"~/components/*": ["src/components/*"],
+			"~/pages/*": ["src/pages/*"],
+			"~/hooks/*": ["src/hooks/*"],
+			"~/utils/*": ["src/utils/*"],
+			"~/assets/*": ["src/assets/*"],
+			"~/types/*": ["src/types/*"],
+			"~/cms": ["src/cms/index.ts"],
+			"~/cms/*": ["src/cms/*"],
+			"~/config/*": ["src/config/*"],
+			"~/contexts/*": ["src/contexts/*"],
+			"~/app/*": ["src/app/*"],
+			"~/lib/*": ["src/lib/*"],
+			"@/keystatic.config": ["keystatic.config.ts"],
+			"@/next.config": ["next.config.mjs"]
+		},
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"noEmit": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"strictNullChecks": false
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", ".next/types/**/*.ts"],
+	"exclude": ["node_modules", "backend", ".next"]
+}

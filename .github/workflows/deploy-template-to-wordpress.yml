@@ -1,0 +1,49 @@
+# NOTICE
+# THIS FILE IS FOR TEMPLATE REPO TESTING AND SHOULD BE DELETED AFTER CLONING THE TEMPLATE REPO
+
+---
+name: "Deploy nextwptemplate to cms"
+
+on:
+  push:
+    paths: ["backend/theme/**"]
+    branches: ["master", "staging", "develop"]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # only run if repo is actually nextwptemplate (avoids other cloned repos accidentally pushing changes to template repo)
+    if: ${{ contains(github.event.repository.name, 'nextwptemplate') }}
+    env:
+      WPE_USER: "" # default to dev site
+    steps:
+      - name: Cloning repo
+        uses: actions/checkout@v2
+
+      - name: Set the WPEngine User Environment Variable
+        run: |
+          declare -A SITEMAP=(
+            [refs/heads/master]=nextwptemplate
+            [refs/heads/staging]=nwtstg
+            [refs/heads/develop]=nwtdev
+          )
+          echo "WPE_USER=${SITEMAP[${{github.ref}}]}" >> $GITHUB_ENV
+
+      - name: "Deploy to ${{ env.WPE_USER }}.wpengine.com"
+        uses: burnett01/rsync-deployments@5.1
+
+        with:
+          switches: -razvh --update
+          path: backend/theme/
+          remote_path: "/home/wpe-user/sites/${{ env.WPE_USER }}/wp-content/themes/theme/"
+          remote_host: ${{ env.WPE_USER }}.ssh.wpengine.net
+          remote_user: ${{ env.WPE_USER }}
+          remote_key: ${{ secrets.WPENGINESSH }}
+
+      - name: Clear WPEngine Cache
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ env.WPE_USER }}.ssh.wpengine.net
+          username: ${{ env.WPE_USER }}
+          key: ${{ secrets.WPENGINESSH }}
+          script: wp cache flush

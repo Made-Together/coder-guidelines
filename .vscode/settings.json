@@ -1,0 +1,18 @@
+{
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"files.exclude": {
+		"**/backend/plugins": true,
+		"**/backend/theme/acf-json": true
+	},
+	"files.watcherExclude": {
+		"**/backend/plugins/**": true,
+		"**/backend/theme/acf-json": true
+	},
+	"search.exclude": {
+		"**/backend/plugins/**": true,
+		"**/backend/theme/acf-json": true
+	}
+}

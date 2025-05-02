@@ -1,0 +1,21 @@
+{
+	"phpVersion": "7.4",
+	"mappings": {
+		"wp-content/themes/theme": "./backend/theme",
+		"wp-content/plugins": "./backend/plugins",
+		"wp-content/uploads": "./backend/uploads",
+		"wp-content/languages": "./backend/languages"
+	},
+	"plugins": [
+		"WordPress/classic-editor",
+		"WebDevStudios/custom-post-type-ui",
+		"msaari/relevanssi",
+		"acf-extended/ACF-Extended"
+	],
+	"config": {
+		"WPMDB_LICENCE": "1ae1e3ef-a271-4ef5-868e-f630a0c9b072",
+		"WP_SITEURL": "http://localhost:8888",
+		"WP_HOME": "http://localhost:8888",
+		"WP_MEMORY_LIMIT": "512M"
+	}
+}

@@ -1,0 +1,42 @@
+heading: Colour Palette
+slug: colour-palette
+order: 4
+sections:
+  - spacing: small
+    content:
+      - discriminant: intro
+        value:
+          heading: Primary Colors
+      - discriminant: colours
+        value:
+          colourGroup: primaries
+      - discriminant: intro
+        value:
+          heading: Secondary Colors
+      - discriminant: colours
+        value:
+          colourGroup: secondaries
+      - discriminant: intro
+        value:
+          heading: Vanilla Colors
+      - discriminant: colours
+        value:
+          colourGroup: tertiaries
+      - discriminant: intro
+        value:
+          heading: Accents
+      - discriminant: colours
+        value:
+          colourGroup: accents
+      - discriminant: intro
+        value:
+          heading: Gradients
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Dark
+              content: Dark gradient
+              image: /dark.svg
+            - title: Light
+              content: Light gradient
+              image: /light.svg

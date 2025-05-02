@@ -1,0 +1,35 @@
+$xxs: rem(400px);
+$xs: rem(480px);
+$sm: rem(640px);
+$md: rem(768px);
+$lg: rem(1024px);
+$xl: rem(1280px);
+$xxl: rem(1440px);
+$responsive_size_modifier: 0.825;
+$responsive_size_modifier_large: 0.5;
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.text-h1 {
+	@include clamp("font-size", rem(72px * $responsive_size_modifier_large), rem(56px), $md, $lg);
+}
+
+.text-h2 {
+	@include clamp("font-size", rem(48px * $responsive_size_modifier_large), rem(48px), $md, $lg);
+}
+
+.text-h3 {
+	@apply text-3xl;
+}
+
+.text-h4 {
+	@apply text-xl;
+}
+
+.prose {
+	max-width: 100%;
+	color: inherit;
+}

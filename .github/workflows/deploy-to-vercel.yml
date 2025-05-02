@@ -1,0 +1,24 @@
+name: Deploy to vercel
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy-to-vercel:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set Environment Variables
+      run: |
+        if [ "${{ github.ref }}" == "refs/heads/master" ]; then
+          echo "VERCEL_HOOK=${{ secrets.VERCEL_PRODUCTION_HOOK }}" >> $GITHUB_ENV
+        fi
+    - name: Send GET Request to Vercel Deploy Hook
+      run: |
+        if [ -z "$VERCEL_HOOK" ]; then
+          echo "Vercel hook secret is not set"
+          exit 0
+        else
+          curl -X GET $VERCEL_HOOK
+        fi

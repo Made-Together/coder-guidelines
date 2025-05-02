@@ -1,0 +1,61 @@
+{
+	"extends": ["next/core-web-vitals", "airbnb", "prettier"],
+	"plugins": ["import", "prettier"],
+	"ignorePatterns": ["*.css", "*.scss", "*.sass", "*.less"],
+	"rules": {
+		"react/jsx-filename-extension": ["off"],
+		"react/prop-types": ["off"],
+		"react/jsx-props-no-spreading": ["off"],
+		"react/no-array-index-key": ["off"],
+		"react/jsx-no-constructed-context-values": ["off"],
+		"react/react-in-jsx-scope": ["off"],
+		"react/no-danger": ["off"],
+		"react/no-unknown-property": ["warn"],
+		"import/no-dynamic-require": ["off"],
+		"prettier/prettier": ["off"],
+		"no-unused-vars": ["off"],
+		"camelcase": ["off"],
+		"class-methods-use-this": ["off"],
+		"no-use-before-define": ["off"],
+		"global-require": ["off"],
+		"react/require-default-props": ["off"],
+		"import/extensions": ["off"],
+		"no-nested-ternary": ["off"],
+		"jsx-a11y/label-has-associated-control": ["off"],
+		"import/order": ["off"],
+		"no-restricted-imports": "off",
+		"no-case-declarations": "off",
+		"radix": "off",
+		"complexity": ["warn", 30],
+		"react/boolean-prop-naming": ["error", { "rule": "^(is|has|show)[A-Z]([A-Za-z0-9]?)+" }],
+		"no-console": "off",
+		"import/prefer-default-export": "off",
+		"react/button-has-type": "off",
+		"react/jsx-curly-brace-presence": "off",
+		"react/self-closing-comp": "off",
+		"jsx-a11y/click-events-have-key-events": "off",
+		"consistent-return": "off",
+		"no-restricted-syntax": "off",
+		"react-hooks/exhaustive-deps": "off",
+		"default-case": "off",
+		"prefer-const": "off",
+		"arrow-body-style": "off"
+	},
+	"settings": {
+		"import/resolver": {
+			"alias": {
+				"map": [
+					["~/components", "./src/components"],
+					["~/pages", "./src/pages"],
+					["~/hooks", "./src/hooks"],
+					["~/utils", "./src/utils"],
+					["~/assets", "./src/assets"],
+					["~/types", "./src/types"],
+					["~/cms", "./src/cms"],
+					["~/contexts", "./src/contexts"]
+				],
+				"extensions": [".js", ".jsx", ".json", ".ts", ".tsx"]
+			}
+		}
+	}
+}

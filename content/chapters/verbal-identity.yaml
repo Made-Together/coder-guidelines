@@ -1,0 +1,102 @@
+heading: Verbal identity
+slug: verbal-identity
+order: 2
+sections:
+  - spacing: default
+    content:
+      - discriminant: intro
+        value:
+          heading: Key Messages
+          content: >-
+            Our key messages communicate the key capabilities, differentiators and values of our company.
+            
+            The way we express them helps to make our messages more memorable and unique to our brand.
+
+
+      - discriminant: twoBoxText
+        value:
+          block_1_title: What it is
+          block_1:
+            - title: Silna empowers providers to effortlessly clear patients for care.
+            - title: Free your clinical team to focus on sessions.
+            - title: With Silna, you never worry about expiring authorizations or ineligible patients.
+          block_2_title: How we say it
+          block_2:
+            - title: Cleared from admin. Clear for care.
+            - title: Spend time with patients, not paperwork.
+            - title: One smart assistant, three core functions, zero extra headcount.
+      - discriminant: intro
+        value:
+          heading: Linguistic Techniques
+          content: >-
+            Our language is positive, emotive and forward-looking. Emulating a sense of relief and positivity.
+            
+            To evoke a sense of optimism in our writing, we focus on benefit-led, aspirational language — while avoiding superlatives or excessive use of adjectives that cloud our clarity.
+
+
+      - discriminant: textBox
+        value:
+          blocks:
+            - title: Cleared from admin. Clear for care.
+            - title: Workflows that just flow.
+            - title: We care about better care.
+            - title: Spend time with patients, not paperwork.
+            - title: One smart assistant, three core functions, zero extra headcount.
+            - title: Complete care. Completely different.
+      - discriminant: intro
+        value:
+          heading: A sense of optimisim
+          content: >-
+            As the brighter, clearer new chapter of healthcare, our messaging needs to portray a sense of contrast from the outdated alternatives. We use parallelism to create rhythm and balance, and antithesis to highlight benefits. These techniques make our messaging memorable and impactful.
+
+
+      - discriminant: textBox
+        value:
+          blocks:
+            - title: Make care your primary focus.
+            - title: Discover a new dawn for healthcare.
+      - discriminant: intro
+        value:
+          heading: Voice Characteristics
+          content: >-
+            Our tone of voice characteristics align with our conviction, promise and experience principles. We should keep these front of mind when creating any written content.
+
+
+      - discriminant: textBoxContent
+        value:
+          blocks:
+            - title: Compelling
+              content: We push healthcare providers to do better through proactive tools that seem like magic. So our tone is compelling and inspiring.
+            - title: Insightful
+              content: We showcase our deep domain-specific expertise in a way that resonates with (but never patronizes) our audience.
+            - title: Liberating
+              content: We free up healthcare providers to get back to doing what they do best. So we write clearly and without excess fluff.
+            - title: Guiding
+              content: Trusted, dependable and mission-driven, we're a guiding force with a tone that's confident and outcome-driven.
+      - discriminant: intro
+        value:
+          heading: Style & Mechanics
+          content: >-
+            These rules lay the foundations for our brand voice and should be maintained at all times to ensure consistency and professionalism.
+
+
+      - discriminant: doDont
+        value:
+          right:
+            - heading: Embrace contractions
+              content: Contractions make our writing feel natural and accessible. Don't shy away from using them — we're big fans.
+            - heading: Use American English
+              content: Use American English, always. Watch out for those wandering S's that sneak in from British spelling.
+            - heading: Start with conjunctions
+              content: We're not afraid of starting sentences with conjunctions. Because we know they help to make our content snappier. And more human.
+            - heading: Ampersands in headings
+              content: In headings, we use the ampersand (&) instead of 'and.' It keeps titles short and sharp.
+            - heading: Vary sentence length
+              content: We like concise sentences, but mixing short and medium-length ones creates a sense of rhythm. And makes our content flow smoothly.
+          wrong:
+            - heading: No Oxford comma
+              content: We don't use the Oxford (serial) comma in lists. Keep things clean and simple by avoiding that extra comma.
+            - heading: Avoid semicolons
+              content: We dislike the semicolon. Use an em dash for breaks in thought — or just a simple period.
+            - heading: Avoid jargon
+              content: We avoid jargon at all costs. If technical terms are necessary, we explain them simply to ensure accessibility for all readers.

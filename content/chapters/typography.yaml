@@ -1,0 +1,34 @@
+heading: Typography
+slug: typography
+order: 5
+sections:
+  - content:
+      - discriminant: intro
+        value:
+          heading: Primary Typeface
+          content: Our primary typeface combines a clean and modern look with a touch of character. Designed specifically for headings, it adds personality while maintaining clarity.
+      - discriminant: fontDisplay
+        value:
+          type: headings
+          backgroundColour: bg-core
+          textColour: text-white
+      - discriminant: intro
+        value:
+          heading: Secondary Typeface
+          content: Our secondary typeface is designed for body copy, ensuring readability and clarity. Its clean and straightforward design works well across digital and print formats.
+      - discriminant: fontDisplay
+        value:
+          type: body
+          backgroundColour: bg-secondaries-rose
+          textColour: text-black
+      - discriminant: intro
+        value:
+          heading: Google Alternatives
+          content: Google typefaces should be used in situations where custom brand fonts, such as Arizona Flare and Enduro, are not accessible.
+
+            This includes platforms like Google Slides, shared documents, or other environments where embedding custom fonts is not possible.
+      - discriminant: fontDisplay
+        value:
+          type: google
+          backgroundColour: bg-tertiary
+          textColour: text-black

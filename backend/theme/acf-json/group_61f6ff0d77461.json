@@ -1,0 +1,99 @@
+[
+	{
+			"key": "group_61f6ff0d77461",
+			"title": "Global — Redirects",
+			"fields": [
+					{
+							"key": "field_61f6ff49b808c",
+							"label": "Redirects",
+							"name": "redirects",
+							"type": "repeater",
+							"instructions": "",
+							"required": 0,
+							"conditional_logic": 0,
+							"wrapper": {
+									"width": "",
+									"class": "",
+									"id": ""
+							},
+							"relevanssi_exclude": 1,
+							"acfe_repeater_stylised_button": 0,
+							"collapsed": "field_61f6ff59b808d",
+							"min": 0,
+							"max": 0,
+							"layout": "table",
+							"button_label": "Add Redirect",
+							"sub_fields": [
+									{
+											"key": "field_61f6ff59b808d",
+											"label": "Source",
+											"name": "source",
+											"type": "text",
+											"instructions": "",
+											"required": 1,
+											"conditional_logic": 0,
+											"wrapper": {
+													"width": "",
+													"class": "",
+													"id": ""
+											},
+											"relevanssi_exclude": 1,
+											"default_value": "",
+											"placeholder": "",
+											"prepend": "",
+											"append": "",
+											"maxlength": ""
+									},
+									{
+											"key": "field_61f6ff60b808e",
+											"label": "Destination",
+											"name": "destination",
+											"type": "text",
+											"instructions": "",
+											"required": 1,
+											"conditional_logic": 0,
+											"wrapper": {
+													"width": "",
+													"class": "",
+													"id": ""
+											},
+											"relevanssi_exclude": 0,
+											"default_value": "",
+											"placeholder": "",
+											"prepend": "",
+											"append": "",
+											"maxlength": ""
+									}
+							]
+					}
+			],
+			"location": [
+					[
+							{
+									"param": "options_page",
+									"operator": "==",
+									"value": "redirects"
+							}
+					]
+			],
+			"menu_order": 0,
+			"position": "normal",
+			"style": "default",
+			"label_placement": "left",
+			"instruction_placement": "label",
+			"hide_on_screen": "",
+			"active": true,
+			"description": "",
+			"show_in_rest": 0,
+			"acfe_display_title": "",
+			"acfe_autosync": [
+					"json"
+			],
+			"acfe_form": 0,
+			"acfe_meta": "",
+			"acfe_note": "",
+			"acfe_categories": {
+					"global": "Global"
+			}
+	}
+]

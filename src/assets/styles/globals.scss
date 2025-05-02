@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "mixins";
+@import "typography";
+
+html {
+	scroll-behavior: smooth !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-padding-top: 8rem;
+	@apply font-body text-black transition-colors duration-200 dark:bg-black dark:text-white;
+}
+
+.font-headings {
+	// Add your font weight here with apply.
+}

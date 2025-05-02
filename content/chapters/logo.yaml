@@ -1,0 +1,92 @@
+heading: Logo
+slug: logo
+order: 3
+sections:
+  - spacing: default
+    content:
+      - discriminant: intro
+        value:
+          heading: Lockups
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Logo
+              image: /logo.svg
+              file: /logo.svg
+            - title: Icon
+              image: /icon.svg
+              file: /icon.svg
+            - title: Gradient / Midnight
+              image: /logo-midnight.svg
+              file: /logo-midnight.svg
+            - title: Gradient
+              image: /icon-midnight.svg
+              file: /icon-midnight.svg
+      - discriminant: intro
+        value:
+          heading: Colour Application
+          content: >-
+            Our logo is adaptable across various colour applications to maintain brand consistency. On white backgrounds, the logo appears in its primary dark shade for strong contrast. For darker backgrounds like Midnight and Grape, the logo is reversed to white for clarity. These variations ensure the logo remains legible and impactful across all mediums.
+
+
+      - discriminant: threeColImages
+        value:
+          images:
+            - title: White BG
+              content: Gradient / MIDNIGHT
+              image: /white-bg-gradient.svg
+            - title: Midnight BG
+              content: Gradient / White
+              image: /midnight-bg-gradient.svg
+            - title: Grape BG
+              content: White
+              image: /grape-bg-white.svg
+            - title: White BG
+              content: Black
+              image: /white-bg-black.svg
+            - title: White BG
+              content: Gradient
+              image: /white-bg-gradient-icon.svg
+            - title: Midnight BG
+              content: Gradient
+              image: /midnight-bg-gradient-icon.svg
+            - title: Grape BG
+              content: White
+              image: /grape-bg-white-icon.svg
+            - title: White BG
+              content: Black
+              image: /white-bg-black-icon.svg
+      - discriminant: intro
+        value:
+          heading: Clear Space
+          content: >-
+            Clear space ensures visibility and impact across all applications. Maintain a minimum clear space equivalent to the height of the "X" as shown in the diagram, around the logo and icon.
+            
+            This space should remain free of text, images, or other graphic elements to preserve the logo's integrity and prominence.
+
+
+      - discriminant: fullWidthImage
+        value:
+          image: /clear-space.svg
+      - discriminant: intro
+        value:
+          heading: Usage
+          content: >-
+            For logo usage, ensure the icon is used in smaller avatars or compact spaces where simplicity is key.
+            
+            In larger or open spaces, utilise the full logo to maximise brand recognition and visibility.
+            
+            This approach ensures flexibility while maintaining brand consistency across different applications.
+
+
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Web
+              image: /web.jpg
+            - title: Socials
+              image: /socials.jpg
+            - title: Product
+              image: /product.jpg
+            - title: Marketing
+              image: /marketing.jpg

@@ -1,0 +1,26 @@
+heading: Iconography
+slug: iconography
+order: 6
+sections:
+  - content:
+      - discriminant: intro
+        value:
+          heading: Icon Set
+          content: Our custom iconography reflects the same curved paths found in the logo mark, ensuring consistency and harmony across visual elements.
+
+            These icons are simple, modern, and designed to communicate clearly while maintaining brand distinction.
+      - discriminant: iconSet
+        value:
+          icons:
+            - title: Person
+              image: /person.svg
+              file: /person.svg
+            - title: Lock
+              image: /lock.svg
+              file: /lock.svg
+            - title: Heart
+              image: /heart.svg
+              file: /heart.svg
+            - title: Lightbulb
+              image: /lightbulb.svg
+              file: /lightbulb.svg

@@ -1,0 +1,101 @@
+[
+	{
+			"key": "group_668d3ebf2a5fe",
+			"title": "Global - Footer",
+			"fields": [
+					{
+							"key": "field_668d3ebf369dd",
+							"label": "Footer Nav",
+							"name": "footer_nav",
+							"aria-label": "",
+							"type": "group",
+							"instructions": "",
+							"required": 0,
+							"conditional_logic": 0,
+							"wrapper": {
+									"width": "",
+									"class": "",
+									"id": ""
+							},
+							"layout": "block",
+							"acfe_seamless_style": 0,
+							"acfe_group_modal": 0,
+							"sub_fields": [
+									{
+											"key": "field_668d3ed3369de",
+											"label": "Items",
+											"name": "items",
+											"aria-label": "",
+											"type": "repeater",
+											"instructions": "",
+											"required": 0,
+											"conditional_logic": 0,
+											"wrapper": {
+													"width": "",
+													"class": "",
+													"id": ""
+											},
+											"acfe_repeater_stylised_button": 0,
+											"layout": "table",
+											"pagination": 0,
+											"min": 0,
+											"max": 0,
+											"collapsed": "",
+											"button_label": "Add Row",
+											"rows_per_page": 20,
+											"sub_fields": [
+													{
+															"key": "field_668d3eda369df",
+															"label": "Link",
+															"name": "link",
+															"aria-label": "",
+															"type": "link",
+															"instructions": "",
+															"required": 0,
+															"conditional_logic": 0,
+															"wrapper": {
+																	"width": "",
+																	"class": "",
+																	"id": ""
+															},
+															"return_format": "array",
+															"parent_repeater": "field_668d3ed3369de"
+													}
+											]
+									}
+							],
+							"acfe_group_modal_close": 0,
+							"acfe_group_modal_button": "",
+							"acfe_group_modal_size": "large"
+					}
+			],
+			"location": [
+					[
+							{
+									"param": "post_type",
+									"operator": "==",
+									"value": "post"
+							}
+					]
+			],
+			"menu_order": 0,
+			"position": "normal",
+			"style": "default",
+			"label_placement": "left",
+			"instruction_placement": "label",
+			"hide_on_screen": "",
+			"active": true,
+			"description": "",
+			"show_in_rest": 0,
+			"acfe_display_title": "",
+			"acfe_autosync": [
+					"json"
+			],
+			"acfe_form": 0,
+			"acfe_meta": "",
+			"acfe_note": "",
+			"acfe_categories": {
+					"global": "Global"
+			}
+	}
+]

@@ -1,0 +1,105 @@
+heading: Photography
+slug: photography
+order: 6
+sections:
+  - content:
+      - discriminant: intro
+        value:
+          heading: Overview
+          content: >-
+            Our photography captures four key categories:
+            
+            Patient Portraits Reflecting warmth and optimism.
+            
+            Doctor Portraits Showcasing professionalism and empathy.
+            
+            Doctors with Patients Highlighting trust and care.
+            
+            Sky Symbolising hope and optimism.
+
+
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Patients
+              image: /patients.jpg
+            - title: Doctors
+              image: /doctors.jpg
+            - title: Doctors & Patients
+              image: /doctors-patients.jpg
+            - title: Sky
+              image: /sky.jpg
+      - discriminant: intro
+        value:
+          heading: Patients
+          content: Choose authentic, diverse, and hopeful portraits with natural lighting, blue skies, and minimal distractions, reflecting Silna's care and inclusivity.
+      - discriminant: threeColImages
+        value:
+          images:
+            - image: /patient-1.jpg
+            - image: /patient-2.jpg
+            - image: /patient-3.jpg
+            - image: /patient-4.jpg
+            - image: /patient-5.jpg
+            - image: /patient-6.jpg
+      - discriminant: intro
+        value:
+          heading: Doctors
+          content: >-
+            Select professional, approachable portraits of doctors in natural settings.
+            
+            Feeling warm and natural lighting with subtle backgrounds, reflecting our ethos of care and trust.
+
+
+      - discriminant: threeColImages
+        value:
+          images:
+            - image: /doctors-1.jpg
+            - image: /doctors-2.jpg
+            - image: /doctors-3.jpg
+            - image: /doctors-4.jpg
+            - image: /doctors-5.jpg
+            - image: /doctors-6.jpg
+      - discriminant: intro
+        value:
+          heading: Doctors & Patients
+          content: >-
+            Focus on natural, empathetic images that capture genuine interactions between doctors and patients.
+            
+            Highlight trust, care, and connection in warm, well-lit environments, ensuring diversity and inclusivity.
+
+
+      - discriminant: threeColImages
+        value:
+          images:
+            - image: /doctors-patients-1.jpg
+            - image: /doctors-patients-2.jpg
+            - image: /doctors-patients-3.jpg
+            - image: /doctors-patients-4.jpg
+            - image: /doctors-patients-5.jpg
+            - image: /doctors-patients-6.jpg
+      - discriminant: intro
+        value:
+          heading: Sky
+          content: >-
+            Choose sky imagery featuring soft, natural gradients with tints of pink that align with our colour palette.
+            
+            Focus on scenes that evoke a sense of calm and optimism in line with our core values.
+
+
+      - discriminant: twoColImages
+        value:
+          images:
+            - image: /sky-1.jpg
+            - image: /sky-2.jpg
+            - image: /sky-3.jpg
+            - image: /sky-4.jpg
+      - discriminant: intro
+        value:
+          heading: Colour Grading
+          content: Our colour grading enhances imagery by bringing in warmth and richness, creating a sense of optimism and approachability. The subtle adjustments elevate natural tones, adding depth and vibrancy to the visuals.
+      - discriminant: twoColImages
+        value:
+          images:
+            - image: /portraits.jpg
+            - image: /skies.jpg
