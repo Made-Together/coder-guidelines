@@ -22,7 +22,7 @@
 		"@svgr/webpack": "^8.1.0",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/forms": "^0.5.7",
-		"@tailwindcss/typography": "^0.5.13",
+		"@tailwindcss/typography": "^0.5.16",
 		"@types/js-yaml": "^4.0.9",
 		"assert": "^2.1.0",
 		"autoprefixer": "^10.4.19",
