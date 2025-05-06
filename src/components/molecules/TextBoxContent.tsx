@@ -13,7 +13,7 @@ export default function TextBoxContent({ blocks }: TextBoxContentProps) {
 			{blocks.map((block, index) => (
 				<div
 					key={index}
-					className="2 rounded-default bg-core flex aspect-[485/300] flex-col items-start justify-between p-6 text-left text-white md:p-10 dark:bg-white/10"
+					className="2 flex aspect-[485/300] flex-col items-start justify-between rounded-default bg-accents-linen p-6 text-left text-core md:p-10"
 				>
 					<p className="font-headings text-[24px] font-medium leading-[1.2] md:text-[40px]">{block.title}</p>
 					<p className="font-body">{block.content}</p>

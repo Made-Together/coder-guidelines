@@ -1,12 +1,13 @@
 heading: Typography
-slug: typography
 order: 5
+slug: typography
 sections:
-  - content:
+  - spacing: default
+    content:
       - discriminant: intro
         value:
           heading: Primary Typeface
-          content: Our primary typeface combines a clean and modern look with a touch of character. Designed specifically for headings, it adds personality while maintaining clarity.
+          content: "Our primary typeface, Lay Grotesk, allows us to build simplicity and clarity into our identity, and visually reflects our tone of voice.\L\LWe use Stylistic set 2 of Lay Grotesk for all headings and Stylistic set 1 for all body copy. Stylistic sets can be found in the type settings menu of Figma and all Adobe programmes."
       - discriminant: fontDisplay
         value:
           type: headings
@@ -15,7 +16,13 @@ sections:
       - discriminant: intro
         value:
           heading: Secondary Typeface
-          content: Our secondary typeface is designed for body copy, ensuring readability and clarity. Its clean and straightforward design works well across digital and print formats.
+          content: >-
+            To create a balance between our brand’s emotive character, we use FT
+            System Mono for all labels, technical details and eyebrow headings.
+
+
+            We can also use our Secondary Typeface in code terminals and for
+            more technical-looking decorative purposes.
       - discriminant: fontDisplay
         value:
           type: body
@@ -24,9 +31,12 @@ sections:
       - discriminant: intro
         value:
           heading: Google Alternatives
-          content: Google typefaces should be used in situations where custom brand fonts, such as Arizona Flare and Enduro, are not accessible.
-
-            This includes platforms like Google Slides, shared documents, or other environments where embedding custom fonts is not possible.
+          content: >-
+            When our primary and secondary typefaces aren’t available, we can
+            use our system fonts for our headings, sub-headings and body copy.
+            This includes platforms like Google Slides, shared documents, or
+            other environments where embedding licensed fonts is not possible.
+            We use these with the same rules as our brand typefaces.
       - discriminant: fontDisplay
         value:
           type: google

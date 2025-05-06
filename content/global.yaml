@@ -1,15 +1,14 @@
 logo: /images/logo.svg
-favicon: /favicon.png
 masthead:
   heading: Masthead
-  image: /hero.svg
+  image: /masthead/image.png
   alt: Masthead
 footer:
   heading: Footer
-  image: /footer.svg
+  image: /footer/image.png
   alt: Footer
 seo:
   title: Brand Guidelines
   description: Visual identity guidelines
   url: https://brand.company.com
-  image: /seo.jpg
+  image: /seo/image.png

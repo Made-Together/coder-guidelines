@@ -1,92 +1,89 @@
 heading: Logo
-slug: logo
 order: 3
+slug: logo
 sections:
   - spacing: default
     content:
       - discriminant: intro
         value:
-          heading: Lockups
+          heading: Logos
+          content: "The Coder logo is one of our most recognizable assets —\_used across all our brand touchpoints for a unified experience.\L\LWe use our primary logo in most cases.\_But if we’re restricted by sizing limitations (such as the website favicon our social avatars), we use our shorthand logo —\_which carries the same aesthetic and sentiment as our primary logo."
       - discriminant: twoColImages
         value:
           images:
-            - title: Logo
-              image: /logo.svg
-              file: /logo.svg
-            - title: Icon
-              image: /icon.svg
-              file: /icon.svg
-            - title: Gradient / Midnight
-              image: /logo-midnight.svg
-              file: /logo-midnight.svg
-            - title: Gradient
-              image: /icon-midnight.svg
-              file: /icon-midnight.svg
-      - discriminant: intro
-        value:
-          heading: Colour Application
-          content: >-
-            Our logo is adaptable across various colour applications to maintain brand consistency. On white backgrounds, the logo appears in its primary dark shade for strong contrast. For darker backgrounds like Midnight and Grape, the logo is reversed to white for clarity. These variations ensure the logo remains legible and impactful across all mediums.
-
-
-      - discriminant: threeColImages
-        value:
-          images:
-            - title: White BG
-              content: Gradient / MIDNIGHT
-              image: /white-bg-gradient.svg
-            - title: Midnight BG
-              content: Gradient / White
-              image: /midnight-bg-gradient.svg
-            - title: Grape BG
-              content: White
-              image: /grape-bg-white.svg
-            - title: White BG
-              content: Black
-              image: /white-bg-black.svg
-            - title: White BG
-              content: Gradient
-              image: /white-bg-gradient-icon.svg
-            - title: Midnight BG
-              content: Gradient
-              image: /midnight-bg-gradient-icon.svg
-            - title: Grape BG
-              content: White
-              image: /grape-bg-white-icon.svg
-            - title: White BG
-              content: Black
-              image: /white-bg-black-icon.svg
+            - title: Primary logo
+              image: /images/logo/sections/0/content/1/value/images/0/image.svg
+            - title: Shorthand logo
+              image: /images/logo/sections/0/content/1/value/images/1/image.svg
       - discriminant: intro
         value:
           heading: Clear Space
           content: >-
-            Clear space ensures visibility and impact across all applications. Maintain a minimum clear space equivalent to the height of the "X" as shown in the diagram, around the logo and icon.
-            
-            This space should remain free of text, images, or other graphic elements to preserve the logo's integrity and prominence.
-
-
+            Our logo works best when it has space to breathe, utilising vast
+            open spaces. Our minimum clear space is defined by the height of our
+            logo. However, when using our shorthand logo, we use half of the
+            height of our logo to define the clear space.
       - discriminant: fullWidthImage
         value:
-          image: /clear-space.svg
+          image: /images/logo/sections/0/content/3/value/image.png
+      - discriminant: intro
+        value:
+          heading: Color Application
+          content: >-
+            When it comes to color, we like to keep things simple. We only use
+            White or Black version of our logo. Make sure to check out the Color
+            section of our guidelines for all color values.
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Black white background
+              image: /images/logo/sections/0/content/5/value/images/0/image.png
+            - title: White black background
+              image: /images/logo/sections/0/content/5/value/images/1/image.png
+            - title: Black Image background
+              image: /images/logo/sections/0/content/5/value/images/2/image.png
+            - title: White Image background
+              image: /images/logo/sections/0/content/5/value/images/3/image.png
       - discriminant: intro
         value:
           heading: Usage
-          content: >-
-            For logo usage, ensure the icon is used in smaller avatars or compact spaces where simplicity is key.
-            
-            In larger or open spaces, utilise the full logo to maximise brand recognition and visibility.
-            
-            This approach ensures flexibility while maintaining brand consistency across different applications.
-
-
       - discriminant: twoColImages
         value:
           images:
             - title: Web
-              image: /web.jpg
+              image: /images/logo/sections/0/content/7/value/images/0/image.png
             - title: Socials
-              image: /socials.jpg
+              image: /images/logo/sections/0/content/7/value/images/1/image.png
             - title: Product
-              image: /product.jpg
+              image: /images/logo/sections/0/content/7/value/images/2/image.png
             - title: Marketing
-              image: /marketing.jpg
+              image: /images/logo/sections/0/content/7/value/images/3/image.png
+      - discriminant: intro
+        value:
+          heading: Motion
+          content: >-
+            Our logo works best in motion. Rooted in the world of programming,
+            our logo animation symbolizes our ready-to-code environments and
+            signals what’s yet to come.
+      - discriminant: intro
+        value:
+          heading: Misuse
+          content: >-
+            It’s important that our logo is consistent and legible at all times.
+            Try to avoid some of these common misuse examples when using our
+            logo.
+      - discriminant: threeColImages
+        value:
+          images:
+            - title: Avoid stretching the logo
+              image: /images/logo/sections/0/content/10/value/images/0/image.png
+            - title: Avoid positioning the logo on an angle
+              image: /images/logo/sections/0/content/10/value/images/1/image.png
+            - title: Avoid recreating the logo lockup
+              image: /images/logo/sections/0/content/10/value/images/2/image.png
+            - title: Avoid using non-approved logo colors
+              image: /images/logo/sections/0/content/10/value/images/3/image.png
+            - title: Avoid placing the logo over busy imagery
+              image: /images/logo/sections/0/content/10/value/images/4/image.png
+            - title: Avoid using gradients or other effects
+              image: /images/logo/sections/0/content/10/value/images/5/image.png

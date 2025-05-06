@@ -1,0 +1,61 @@
+heading: Brand Device
+order: 4
+slug: ''
+sections:
+  - spacing: default
+    content:
+      - discriminant: intro
+        value:
+          heading: Blink
+          content: >-
+            Charming and characterful, our unassuming brand brand device, Blink,
+            lives within our logo as the block cursor. 
+
+
+            Blink drives the entire Coder experience, injecting emotion and
+            personality into every touchpoint to unlock the unlimited potential
+            of Coders all around the world.
+      - discriminant: intro
+        value:
+          heading: Idents
+          content: >-
+            With a range of expressions, Blink’s playful movements demonstrate
+            the joy of building, and reflect everything from moments of
+            transition to moments of success.
+      - discriminant: iconSet
+        value:
+          icons:
+            - image: >-
+                /images/brand-device/sections/0/content/2/value/icons/0/image.png
+              isDownloadable: false
+            - image: >-
+                /images/brand-device/sections/0/content/2/value/icons/1/image.png
+              isDownloadable: false
+            - image: >-
+                /images/brand-device/sections/0/content/2/value/icons/2/image.png
+              isDownloadable: false
+            - image: >-
+                /images/brand-device/sections/0/content/2/value/icons/3/image.png
+              isDownloadable: false
+      - discriminant: intro
+        value:
+          heading: Idents Usage
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Logo
+              image: >-
+                /images/brand-device/sections/0/content/4/value/images/0/image.png
+            - title: Product Moments
+              image: >-
+                /images/brand-device/sections/0/content/4/value/images/1/image.png
+            - title: Notifications
+              image: >-
+                /images/brand-device/sections/0/content/4/value/images/2/image.png
+            - title: Emojis
+              image: >-
+                /images/brand-device/sections/0/content/4/value/images/3/image.png
+      - discriminant: intro
+        value:
+          heading: Behaviours
+          content: "While Blink’s expressions are often charismatic and playful, it also has a series of functional behaviours that help us build brand attribution across all our marketing material —\_whether static or in motion."

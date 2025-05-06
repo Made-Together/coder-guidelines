@@ -1,57 +1,67 @@
 heading: Brand strategy
-slug: brand-strategy
 order: 1
+slug: brand-strategy
 sections:
   - spacing: default
     content:
       - discriminant: intro
         value:
-          heading: Elevator pitch
-          content: >-
-            Our brand values help us define what makes us different, and how we position ourselves to stand out from the crowd.
-
-
+          heading: Conviction
       - discriminant: pitch
         value:
           content: >-
-            The first ever Care Readiness Platform — proactive tools that handle all checks upfront to make sure patients are actually clear to receive care. Powered by AI, easy-to-use & backed by a team of therapeutic experts.
-
-
+            We believe software development should be open to everyone — without
+            compromises.
+      - discriminant: intro
+        value:
+          heading: Promise
+          content: >-
+            Our Brand Promise articulates what customers can consistently expect
+            from the brand.
+      - discriminant: pitch
+        value:
+          content: >-
+            Coder democratizes development with coding tools that empower any
+            developer to build applications, faster — minus the usual trade-offs
+            between experience & security.
       - discriminant: intro
         value:
           heading: Experience Principles
           content: >-
-            Our brand values help us define what makes us different, and how we position ourselves to stand out from the crowd.
-
-
-      - discriminant: fullWidthImage
+            Our Experience Principles are informed by research-based highlights
+            that show where the industry or brand is currently at, and how we
+            want to implement change to stand out and grow — informing how we
+            look and how we feel.
+      - discriminant: textBoxContent
         value:
-          image: /experience-principles.svg
-      - discriminant: intro
-        value:
-          heading: Brand Values
-          content: >-
-            Our brand values help us define what makes us different, and how we position ourselves to stand out from the crowd.
-
-
-      - discriminant: values
-        value:
-          values:
-            - heading: Dynamic
-              content: Silna's Care Readiness Platform is a proactive system that (finally) makes sure patients are cleared for care upfront.
-            - heading: Professional
-              content: Silna is like an additional member of your team – an expert in multiple therapeutic areas that's both smart and supportive.
-            - heading: Simple
-              content: No more burdensome admin or clunky software. Like magic, Silna saves hours of work with AI and simple, intuitive tools.
-            - heading: Human
-              content: Silna is a transparent, dependable, mission-driven partner, committed to eliminating clinician burnout & improving patient outcomes.
+          blocks:
+            - title: Open
+              content: >-
+                We believe development should be accessible to everyone. That
+                means a brand that feels inviting, inclusive, and transparent:
+                designed for builders, tinkerers & enterprises alike.
+            - title: Fluid
+              content: >-
+                Innovation doesn’t stand still, and neither do we. Coder evolves
+                alongside developers, enterprises & technology itself — adapting
+                and never getting in the way.
+            - title: Human
+              content: >-
+                Developers are the heartbeat of Coder. Every interaction should
+                feel frictionless and empowering, giving them autonomy, speed &
+                joy so they can focus on what they do best.
+            - title: Secure
+              content: >-
+                Serious software for serious teams. Coder combines
+                enterprise-grade security and governance with a developer-first
+                experience (proving that control and creativity can actually
+                coexist).
       - discriminant: intro
         value:
           heading: Brand House
           content: >-
-            Our brand house gives structure to our brand beliefs, strategic positioning & behaviours.
-
-
+            Our Brand House brings together all our strategic components and
+            crystallises what really matters about our brand and business.
       - discriminant: fullWidthImage
         value:
-          image: /brand-house.svg
+          image: /images/brand-strategy/sections/0/content/7/value/image.png

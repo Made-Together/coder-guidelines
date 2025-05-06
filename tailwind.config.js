@@ -1,8 +1,7 @@
 // Define base colors first
 const baseColors = {
-	midnight: "#1E0525",
 	white: "#ffffff",
-	grape: "#895BE7",
+	black: "#090B0B",
 };
 
 const tertiaryColors = {
@@ -34,29 +33,35 @@ module.exports = {
 		extend: {
 			colors: {
 				// Theme colors that reference base colors
-				core: baseColors.midnight,
-				accent: baseColors.grape,
+				core: baseColors.black,
+				accent: baseColors.white,
 				// Primary Colors
 				primaries: baseColors,
 				tertiary: tertiaryColors.tertiary,
 				// Secondary Colors
 				secondaries: {
-					lime: "#F6FFE6",
-					slate: "#C3D7DB",
-					rose: "#FFDBF3",
-					stone: "#A1A5AD",
+					magenta: "#F08DFF",
+					purple: "#BC7CFF",
+					ember: "#FF8067",
+					orchid: "#9900B1",
+					violet: "#7511E2",
+					sunset: "#A13000",
 				},
 				// Tertiary Colors
 				tertiaries: {
-					25: "#FFFCF8",
-					50: tertiaryColors.tertiary,
-					75: "#F6F0E5",
-					100: "#ECE5D8",
+					haze: "#A19CC8",
+					glacier: "#B8D7F5",
+					sky: "#A4E8F2",
+					twilight: "#4A408F",
+					marine: "#1D4D7D",
+					jade: "#005C6A",
 				},
 				// Accent Colors
 				accents: {
-					blackcurrant: "#32073E",
-					black: "#000000",
+					shell: "#F8F2F1",
+					linen: "#FBF8F8",
+					cinder: "#18171A",
+					smoke: "#2F2D33",
 				},
 			},
 			borderRadius: {
