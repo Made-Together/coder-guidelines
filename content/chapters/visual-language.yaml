@@ -80,3 +80,6 @@ sections:
             - title: DEVELOPER FOCUS - covers
               image: >-
                 /images/visual-language/sections/0/content/7/value/images/7/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          video: /videos/visual-language/sections/0/content/8/value/video.mp4

@@ -101,6 +101,12 @@ export default config({
                     publicPath: "/images",
                     validation: { isRequired: false }
                   }),
+                  video: fields.file({
+                    label: "Video (MP4)",
+                    directory: "public/videos",
+                    publicPath: "/videos",
+                    validation: { isRequired: false }
+                  }),
                   file: fields.file({
                     label: "File (Download Link - Optional)",
                     publicPath: "/",
@@ -173,6 +179,12 @@ export default config({
                         label: "Image",
                         directory: "public/images",
                         publicPath: "/images",
+                        validation: { isRequired: false }
+                      }),
+                      video: fields.file({
+                        label: "Video (MP4)",
+                        directory: "public/videos",
+                        publicPath: "/videos",
                         validation: { isRequired: false }
                       }),
                       file: fields.file({
@@ -281,8 +293,14 @@ export default config({
                         publicPath: "/images",
                         validation: { isRequired: false }
                       }),
+                      video: fields.file({
+                        label: "Video (MP4)",
+                        directory: "public/videos",
+                        publicPath: "/videos",
+                        validation: { isRequired: false }
+                      }),
                       isDownloadable: fields.checkbox({
-                        label: "Make image downloadable",
+                        label: "Make file downloadable",
                         defaultValue: false
                       })
                     }),

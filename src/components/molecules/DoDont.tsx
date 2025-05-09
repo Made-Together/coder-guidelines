@@ -36,7 +36,7 @@ export default function DoDont({ right, wrong }: DoDontProps) {
 						</svg>
 						<div className="mt-12 space-y-2 md:mt-28">
 							<p className="font-headings text-[24px] font-medium leading-[1.2] md:text-[32px]">{block.heading}</p>
-							<p className="font-body">{block.content}</p>
+							<p className="font-body" dangerouslySetInnerHTML={{ __html: block.content }} />
 						</div>
 					</div>
 				))}

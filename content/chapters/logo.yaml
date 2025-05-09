@@ -65,6 +65,9 @@ sections:
             Our logo works best in motion. Rooted in the world of programming,
             our logo animation symbolizes our ready-to-code environments and
             signals what’s yet to come.
+      - discriminant: fullWidthImage
+        value:
+          video: /videos/logo/sections/0/content/9/value/video.mp4
       - discriminant: intro
         value:
           heading: Misuse
@@ -76,14 +79,14 @@ sections:
         value:
           images:
             - title: Avoid stretching the logo
-              image: /images/logo/sections/0/content/10/value/images/0/image.png
+              image: /images/logo/sections/0/content/11/value/images/0/image.png
             - title: Avoid positioning the logo on an angle
-              image: /images/logo/sections/0/content/10/value/images/1/image.png
+              image: /images/logo/sections/0/content/11/value/images/1/image.png
             - title: Avoid recreating the logo lockup
-              image: /images/logo/sections/0/content/10/value/images/2/image.png
+              image: /images/logo/sections/0/content/11/value/images/2/image.png
             - title: Avoid using non-approved logo colors
-              image: /images/logo/sections/0/content/10/value/images/3/image.png
+              image: /images/logo/sections/0/content/11/value/images/3/image.png
             - title: Avoid placing the logo over busy imagery
-              image: /images/logo/sections/0/content/10/value/images/4/image.png
+              image: /images/logo/sections/0/content/11/value/images/4/image.png
             - title: Avoid using gradients or other effects
-              image: /images/logo/sections/0/content/10/value/images/5/image.png
+              image: /images/logo/sections/0/content/11/value/images/5/image.png

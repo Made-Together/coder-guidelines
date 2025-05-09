@@ -15,6 +15,9 @@ sections:
             Blink drives the entire Coder experience, injecting emotion and
             personality into every touchpoint to unlock the unlimited potential
             of Coders all around the world.
+      - discriminant: fullWidthImage
+        value:
+          video: /videos/brand-device/sections/0/content/1/value/video.mp4
       - discriminant: intro
         value:
           heading: Idents
@@ -25,18 +28,30 @@ sections:
       - discriminant: iconSet
         value:
           icons:
-            - image: >-
-                /images/brand-device/sections/0/content/2/value/icons/0/image.png
-              isDownloadable: false
-            - image: >-
-                /images/brand-device/sections/0/content/2/value/icons/1/image.png
-              isDownloadable: false
-            - image: >-
-                /images/brand-device/sections/0/content/2/value/icons/2/image.png
-              isDownloadable: false
-            - image: >-
-                /images/brand-device/sections/0/content/2/value/icons/3/image.png
-              isDownloadable: false
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/0/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/1/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/2/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/3/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/4/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/5/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/6/video.mp4
+              isDownloadable: true
+            - video: >-
+                /videos/brand-device/sections/0/content/3/value/icons/7/video.mp4
+              isDownloadable: true
       - discriminant: intro
         value:
           heading: Idents Usage
@@ -44,18 +59,39 @@ sections:
         value:
           images:
             - title: Logo
-              image: >-
-                /images/brand-device/sections/0/content/4/value/images/0/image.png
+              video: >-
+                /videos/brand-device/sections/0/content/5/value/images/0/video.mp4
             - title: Product Moments
-              image: >-
-                /images/brand-device/sections/0/content/4/value/images/1/image.png
+              video: >-
+                /videos/brand-device/sections/0/content/5/value/images/1/video.mp4
             - title: Notifications
-              image: >-
-                /images/brand-device/sections/0/content/4/value/images/2/image.png
+              video: >-
+                /videos/brand-device/sections/0/content/5/value/images/2/video.mp4
             - title: Emojis
-              image: >-
-                /images/brand-device/sections/0/content/4/value/images/3/image.png
+              video: >-
+                /videos/brand-device/sections/0/content/5/value/images/3/video.mp4
       - discriminant: intro
         value:
           heading: Behaviours
           content: "While Blink’s expressions are often charismatic and playful, it also has a series of functional behaviours that help us build brand attribution across all our marketing material —\_whether static or in motion."
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Typing messages
+              video: >-
+                /videos/brand-device/sections/0/content/7/value/images/0/video.mp4
+            - title: typing code
+              video: >-
+                /videos/brand-device/sections/0/content/7/value/images/1/video.mp4
+            - title: Opening windows
+              video: >-
+                /videos/brand-device/sections/0/content/7/value/images/2/video.mp4
+            - title: Focusing
+              video: >-
+                /videos/brand-device/sections/0/content/7/value/images/3/video.mp4
+            - title: zooming
+              video: >-
+                /videos/brand-device/sections/0/content/7/value/images/4/video.mp4
+            - title: highlighting line items
+              video: >-
+                /videos/brand-device/sections/0/content/7/value/images/5/video.mp4

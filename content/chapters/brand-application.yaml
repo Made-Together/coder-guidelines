@@ -63,7 +63,7 @@ sections:
           image: /images/brand-application/sections/0/content/16/value/image.jpg
       - discriminant: fullWidthImage
         value:
-          image: /images/brand-application/sections/0/content/17/value/image.jpg
+          video: /videos/brand-application/sections/0/content/17/value/video.mp4
       - discriminant: fullWidthImage
         value:
           image: /images/brand-application/sections/0/content/18/value/image.jpg
