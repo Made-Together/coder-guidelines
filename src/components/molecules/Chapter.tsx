@@ -38,7 +38,7 @@ export default function Chapter({ heading, sectionNumber, items, downloadFile, d
 					<ul className="space-y-2 text-[15px]">
 						{items.map((item, index) => (
 							<li key={item.id}>
-								<Link href={`#${item.id}`} className="group flex items-center gap-4 md:inline-flex" scroll={false}>
+								<Link href={`#${item.id}`} className="font-accent group flex items-center gap-4 md:inline-flex" scroll={false}>
 									<span className="opacity-50">
 										{sectionNumber}.{index + 1}
 									</span>

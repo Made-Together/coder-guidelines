@@ -1,0 +1,72 @@
+heading: Brand Application
+order: 10
+slug: brand-application
+sections:
+  - spacing: default
+    content:
+      - discriminant: intro
+        value:
+          heading: Brand for enterprise
+          content: >-
+            Our brand uses both dark and light modes to create a flexible,
+            consistent visual system. Dark mode reflects a developer-focused
+            aesthetic, while light mode aligns more with the expectations of
+            enterprise leaders. Though both modes can be used across audiences,
+            we follow an 80/20 split as a general guideline, not a strict rule.
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/1/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/2/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/3/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/4/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/5/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/6/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/7/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/8/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/9/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/10/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/11/value/image.jpg
+      - discriminant: intro
+        value:
+          heading: Brand for developers
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/13/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/14/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/15/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/16/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/17/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/18/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/brand-application/sections/0/content/19/value/image.jpg

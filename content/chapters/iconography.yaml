@@ -1,26 +1,67 @@
 heading: Iconography
+order: 9
 slug: iconography
-order: 6
 sections:
-  - content:
+  - spacing: default
+    content:
       - discriminant: intro
         value:
-          heading: Icon Set
-          content: Our custom iconography reflects the same curved paths found in the logo mark, ensuring consistency and harmony across visual elements.
+          heading: Grid
+          content: >-
+            Our iconography supports our written messaging. We often use icons
+            to emphasise product features and benefits.
 
-            These icons are simple, modern, and designed to communicate clearly while maintaining brand distinction.
+
+            Icons are created on a 30px x 30px grid as a foundation.
+      - discriminant: fullWidthImage
+        value:
+          image: /images/iconography/sections/0/content/1/value/image.jpg
+      - discriminant: intro
+        value:
+          heading: Style
+          content: >-
+            We have created a number of icons for use across our website and
+            other marketing material — all following the same style and
+            aesthetic to create a consistent suite of icons that are unique to
+            Coder.
       - discriminant: iconSet
         value:
           icons:
-            - title: Person
-              image: /person.svg
-              file: /person.svg
-            - title: Lock
-              image: /lock.svg
-              file: /lock.svg
-            - title: Heart
-              image: /heart.svg
-              file: /heart.svg
-            - title: Lightbulb
-              image: /lightbulb.svg
-              file: /lightbulb.svg
+            - image: /images/iconography/sections/0/content/3/value/icons/0/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/1/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/2/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/3/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/4/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/5/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/6/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/7/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/8/image.svg
+              isDownloadable: true
+            - image: /images/iconography/sections/0/content/3/value/icons/9/image.svg
+              isDownloadable: true
+            - image: >-
+                /images/iconography/sections/0/content/3/value/icons/10/image.svg
+              isDownloadable: true
+            - image: >-
+                /images/iconography/sections/0/content/3/value/icons/11/image.svg
+              isDownloadable: true
+            - image: >-
+                /images/iconography/sections/0/content/3/value/icons/12/image.svg
+              isDownloadable: true
+            - image: >-
+                /images/iconography/sections/0/content/3/value/icons/13/image.svg
+              isDownloadable: true
+            - image: >-
+                /images/iconography/sections/0/content/3/value/icons/14/image.svg
+              isDownloadable: true
+            - image: >-
+                /images/iconography/sections/0/content/3/value/icons/15/image.svg
+              isDownloadable: true

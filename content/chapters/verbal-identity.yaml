@@ -2,7 +2,7 @@ heading: Verbal identity
 order: 2
 slug: verbal-identity
 sections:
-  - spacing: default
+  - spacing: small
     content:
       - discriminant: intro
         value:
@@ -45,9 +45,48 @@ sections:
 
                 Many key Coder messages are built on balanced, rhythmic pairings
                 or trios.
+      - discriminant: eyebrow
+        value:
+          content: HOW WE USE IT
       - discriminant: pitch
         value:
-          content: "Code with clarity. \L\nScale with certainty."
+          content: Code with clarity. <br />Scale with certainty.
+      - discriminant: eyebrow
+        value:
+          content: WHY IT MATTERS
+      - discriminant: textBoxContent
+        value:
+          blocks:
+            - title: Welcoming
+              content: >-
+                The rhythm feels natural and approachable, making even complex
+                ideas easy to digest.
+            - title: Bold
+              content: >-
+                Parallelism creates statements that sound confident and
+                memorable.
+            - title: Energizing
+              content: >-
+                The pace and structure carry energy and momentum — perfect for
+                forward-looking, dev-first messaging.
+            - title: Authoritative
+              content: >-
+                Balanced structure conveys precision and control, reinforcing
+                Coder’s technical credibility.
+      - discriminant: values
+        value:
+          values:
+            - heading: Syntactical Ellipsis
+              content: "Ellipsis is when you deliberately leave out words because they’re understood in context — making the sentence tighter, punchier, and more dynamic.\L\LSubjects and verbs are often implied rather than spelled out (\"Build fast\" instead of \"You can build fast\")."
+      - discriminant: eyebrow
+        value:
+          content: HOW WE USE IT
+      - discriminant: pitch
+        value:
+          content: Spin up at speed. <br />Control at scale.
+      - discriminant: eyebrow
+        value:
+          content: WHY IT MATTERS
       - discriminant: textBoxContent
         value:
           blocks:
@@ -72,6 +111,34 @@ sections:
             Our messaging framework distils how we express Coder’s value at
             every level — from big-picture brand belief to functional proof —
             using language that reflects our ToV.
+      - discriminant: textBoxContent
+        value:
+          blocks:
+            - title: Vision / ethos
+              content: Inspires belief in the brand’s mission
+            - title: Open to build.
+              content: >-
+                Whether you're scaling a platform team or shipping side
+                projects, Coder puts the power to build in your hands.
+            - title: What
+              content: Clear product value proposition
+            - title: "Coding tools, without \Lthe trade-offs. "
+              content: >-
+                Finally, cloud development that doesn’t force you to choose
+                between enterprise security and an experience your developers
+                will love.
+            - title: How
+              content: Functional differentiator
+            - title: Spin up at speed. Control at scale.
+              content: >-
+                Self-hosted, centrally managed, and optimised for speed — so you
+                can ship fast, stay secure, and be in control.
+            - title: Why
+              content: Outcome and emotional reward
+            - title: Develop anywhere. Deploy everywhere.
+              content: >-
+                Where code comes together — on your terms, in your environment,
+                at your speed.
       - discriminant: intro
         value:
           heading: Key Messages
@@ -82,18 +149,30 @@ sections:
 
             The way we express them helps to make our messages more memorable
             and unique to our brand.
+      - discriminant: eyebrow
+        value:
+          content: 'vision / ethos: brand-level messaging'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/8/value/image.png
+          image: /images/verbal-identity/sections/0/content/17/value/image.png
+      - discriminant: eyebrow
+        value:
+          content: 'What: core value proposition'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/9/value/image.png
+          image: /images/verbal-identity/sections/0/content/19/value/image.png
+      - discriminant: eyebrow
+        value:
+          content: 'how: supporting features & enablers'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/10/value/image.png
+          image: /images/verbal-identity/sections/0/content/21/value/image.png
+      - discriminant: eyebrow
+        value:
+          content: 'why: emotional or strategic outcomes'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/11/value/image.png
+          image: /images/verbal-identity/sections/0/content/23/value/image.png
       - discriminant: intro
         value:
           heading: Style & Mechanics
@@ -105,67 +184,83 @@ sections:
           right:
             - heading: Lead with clarity
               content: >-
-                Example:  Spin up and start building.
+                <b>Example: </b> Spin up and start building. <br />
 
 
-                Why: Say the most important thing first — our audience moves
-                fast.
+                <b>Why: </b> Say the most important thing first — our audience
+                moves fast.
             - heading: Cut the filler
               content: >-
-                Example:  Build fast. Own fully.
+                <b>Example:</b>  Build fast. Own fully.
 
+                <br>
 
-                Why: Use syntactical ellipsis — skip what’s implied. Trust the
-                reader.
+                <b>Why:</b> Use syntactical ellipsis — skip what’s implied.
+                Trust the reader.
             - heading: Speak like a human
-              content: |-
-                Example:  You own your workspace. We just make it seamless.
+              content: >-
+                <b>Example:</b>  You own your workspace. We just make it
+                seamless.
 
-                Why: Favor direct, natural tone over technical jargon.
+                <br />
+
+                <b>Why:</b> Favor direct, natural tone over technical jargon.
             - heading: Ground the promise in benefit
-              content: "Example:  More productive, from day one.\t\n\nWhy: Show how the product makes life better — quickly."
+              content: "<b>Example:</b>  More productive, from day one.\t\n<br />\n<b>Why: </b>Show how the product makes life better — quickly."
             - heading: Write with energy
               content: >-
-                Example:  Push code, not config.
+                <b>Example: </b> Push code, not config.
 
+                <br />
 
-                Why: Choose verbs with intent. Keep pace high and messages
-                punchy.
+                <b>Why:</b> Choose verbs with intent. Keep pace high and
+                messages punchy.
             - heading: Use confident, rhythmic structure
-              content: "Example:  Developer-first. Agent-ready. Secure, always.\t\n\nWhy: Parallel phrasing (isocolon) sounds decisive and polished."
+              content: "<b>Example:</b>  Developer-first. Agent-ready. Secure, always.\t\n<br />\n<b>Why:</b> Parallel phrasing (isocolon) sounds decisive and polished."
           wrong:
             - heading: Over-explain
               content: >-
-                Example:  Coder is a platform that enables cloud-based
+                <b>Example:</b>  Coder is a platform that enables cloud-based
                 development environments across a range of use cases.
 
+                <br />
 
-                Why: Too slow and corporate. Say what it does, not how it works.
+                <b>Why: </b> Too slow and corporate. Say what it does, not how
+                it works.
             - heading: Say everything at once
               content: >-
-                Example:  A secure, flexible, scalable, portable, open-source,
-                self-hosted, dev-first platform.
+                <b>Example: </b> A secure, flexible, scalable, portable,
+                open-source, self-hosted, dev-first platform.
 
+                <br />
 
-                Why: Prioritize the message. Say one strong thing at a time.
+                <b>Why: </b>Prioritize the message. Say one strong thing at a
+                time.
             - heading: Get fluffy
-              content: |-
-                Example:  Unlock the power of limitless innovation.
+              content: >-
+                <b>Example: </b> Unlock the power of limitless innovation.
 
-                Why: Avoid abstract fluff — speak like an engineer who cares.
+                <br />
+
+                <b>Why: </b> Avoid abstract fluff — speak like an engineer who
+                cares.
             - heading: Overuse jargon
               content: >-
-                Example:  Persistent, containerized virtualized dev shells…
+                <b>Example: </b> Persistent, containerized virtualized dev
+                shells…
 
+                <br />
 
-                Why: Devs know this stuff — but prefer clear, purposeful
+                <b>Why: </b>Devs know this stuff — but prefer clear, purposeful
                 language.
             - heading: Lose momentum in long sentences
               content: >-
-                Example:  Example: By enabling configuration flexibility across
+                <b>Example: </b> By enabling configuration flexibility across
                 cloud-native environments, Coder lets you…
 
+                <br />
 
-                Why: Break it up. Every sentence should drive attention forward.
+                <b>Why: </b>Break it up. Every sentence should drive attention
+                forward.
             - heading: Hedge or pad
-              content: "Example:  You might find this useful...\t\n\nWhy: Be bold. No need to soften or second-guess."
+              content: "<b>Example:</b>  You might find this useful...\t\n<br />\n<b>Why: </b> Be bold. No need to soften or second-guess."

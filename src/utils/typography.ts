@@ -89,14 +89,16 @@ export default async function getFontInfo() {
   const headingsFont = fontFamilies.headings?.[0] || 'Inter';
   const bodyFont = fontFamilies.body?.[0] || 'Inter';
   const googleFont = fontFamilies.google?.[0] || 'Inter';
-  const google2Font = fontFamilies.google2?.[0] || 'Inter';
+  const googleFont2 = fontFamilies.google2?.[0] || 'Inter';
+ 	const accentFont = fontFamilies.accent?.[0] || 'Inter';
 
 
-  const [headingsWeights, bodyWeights, googleWeights, google2Weights] = await Promise.all([
+  const [headingsWeights, bodyWeights, googleWeights, google2Weights, accentWeights] = await Promise.all([
     getWeightsForFont('headings'),
     getWeightsForFont('body'),
     getWeightsForFont('google'),
-    getWeightsForFont('google2')
+    getWeightsForFont('google2'),
+    getWeightsForFont('accent')
   ]);
 
 
@@ -114,8 +116,12 @@ export default async function getFontInfo() {
       weights: googleWeights.map(w => w.name)
     },
     google2: {
-      family: google2Font,
+      family: googleFont2,
       weights: google2Weights.map(w => w.name)
+    },
+    accent: {
+      family: accentFont,
+      weights: accentWeights.map(w => w.name)
     }
   };
 

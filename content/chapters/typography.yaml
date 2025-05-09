@@ -1,5 +1,5 @@
 heading: Typography
-order: 5
+order: 7
 slug: typography
 sections:
   - spacing: default
@@ -7,12 +7,12 @@ sections:
       - discriminant: intro
         value:
           heading: Primary Typeface
-          content: "Our primary typeface, Lay Grotesk, allows us to build simplicity and clarity into our identity, and visually reflects our tone of voice.\L\LWe use Stylistic set 2 of Lay Grotesk for all headings and Stylistic set 1 for all body copy. Stylistic sets can be found in the type settings menu of Figma and all Adobe programmes."
+          content: "Our primary typeface, Lay Grotesk, allows us to build simplicity and clarity into our identity, and visually reflects our tone of voice.\L\n\nWe use Stylistic set 2 of Lay Grotesk for all headings and Stylistic set 1 for all body copy. Stylistic sets can be found in the type settings menu of Figma and all Adobe programmes."
       - discriminant: fontDisplay
         value:
           type: headings
-          backgroundColour: bg-core
-          textColour: text-white
+          backgroundColour: bg-accents-linen
+          textColour: text-black
       - discriminant: intro
         value:
           heading: Secondary Typeface
@@ -25,9 +25,9 @@ sections:
             more technical-looking decorative purposes.
       - discriminant: fontDisplay
         value:
-          type: body
-          backgroundColour: bg-secondaries-rose
-          textColour: text-black
+          type: accent
+          backgroundColour: bg-black
+          textColour: text-white
       - discriminant: intro
         value:
           heading: Google Alternatives
@@ -40,5 +40,10 @@ sections:
       - discriminant: fontDisplay
         value:
           type: google
-          backgroundColour: bg-tertiary
+          backgroundColour: bg-accents-linen
           textColour: text-black
+      - discriminant: fontDisplay
+        value:
+          type: google2
+          backgroundColour: bg-black
+          textColour: text-white

@@ -7,6 +7,7 @@ import TwoBoxText from "~/components/molecules/TwoBoxText";
 import Values from "~/components/molecules/Values";
 import FullWidthImage from "~/components/molecules/FullWidthImage";
 import Pitch from "~/components/molecules/Pitch";
+import Eyebrow from "~/components/molecules/Eyebrow";
 import Intro from "~/components/molecules/Intro";
 import Colours, { ColoursBlock } from "~/components/molecules/Colours";
 import IconSet, { IconSetBlock } from "~/components/molecules/IconSet";
@@ -68,6 +69,13 @@ type IntroContent = BaseContent<
 
 type PitchContent = BaseContent<
 	"pitch",
+	{
+		content: string;
+	}
+>;
+
+type EyebrowContent = BaseContent<
+	"eyebrow",
 	{
 		content: string;
 	}
@@ -186,6 +194,7 @@ type IconSetContent = BaseContent<
 export type SectionContent =
 	| IntroContent
 	| PitchContent
+	| EyebrowContent
 	| FullWidthImageContent
 	| ValuesContent
 	| TwoBoxTextContent
@@ -230,6 +239,8 @@ export default function Section({
 							);
 						case "pitch":
 							return <Pitch key={key} content={block.value.content} />;
+						case "eyebrow":
+							return <Eyebrow key={key} content={block.value.content} />;
 						case "fullWidthImage":
 							return <FullWidthImage key={key} image={block.value.image} />;
 						case "values":

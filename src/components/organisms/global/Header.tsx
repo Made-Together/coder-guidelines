@@ -146,7 +146,7 @@ export default function Header({ deploymentDate, logo = "/images/logo.svg", chap
 
 	// Transform chapters data into menu items format
 	const menuItems = chapters.map((chapter, index) => ({
-		id: `0${index + 1}`,
+		id: index < 9 ? `0${index + 1}` : `${index + 1}`,
 		title: chapter.heading,
 		items: chapter.sections.flatMap((section) =>
 			section.content

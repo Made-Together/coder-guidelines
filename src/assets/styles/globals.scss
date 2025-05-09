@@ -14,5 +14,9 @@ html {
 }
 
 .font-headings {
-	// Add your font weight here with apply.
+	font-feature-settings: "ss02" on;
+}
+
+.font-body {
+	font-feature-settings: "ss01" on;
 }

@@ -29,12 +29,12 @@ export default function TwoBoxText({
 	block_2_title,
 	block_1_styles = {
 		container: "rounded-default bg-tertiary dark:bg-white/10 dark:text-white flex aspect-[485/400] items-center justify-center overflow-hidden p-8 text-center",
-		title: "mb-6 text-[12px] font-medium uppercase dark:text-white",
+		title: "mb-6 text-[12px] font-medium font-accent uppercase dark:text-white",
 		text: "text-[18px] md:text-[22px]",
 	},
 	block_2_styles = {
 		container: "rounded-default flex aspect-[485/400] bg-core text-white dark:bg-white/10 items-center justify-center overflow-hidden p-8 px-12 text-center",
-		title: "mb-6 text-[12px] font-medium uppercase dark:text-white",
+		title: "mb-6 text-[12px] font-medium font-accent uppercase dark:text-white",
 		text: "text-[24px] md:text-[40px] leading-[1.2] font-headings",
 	},
 }: TwoBoxTextProps) {

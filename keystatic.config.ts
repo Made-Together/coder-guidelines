@@ -82,6 +82,16 @@ export default config({
                   })
                 })
               },
+							eyebrow: {
+                label: "Eyebrow",
+                schema: fields.object({
+                  content: fields.text({
+                    label: "Content",
+                    multiline: true,
+                    validation: { isRequired: false }
+                  })
+                })
+              },
               fullWidthImage: {
                 label: "Full Width Image",
                 schema: fields.object({
@@ -137,7 +147,8 @@ export default config({
                       { label: "Headings", value: "headings" },
                       { label: "Body", value: "body" },
                       { label: "Google", value: "google" },
-                      { label: "Google 2", value: "google2" }
+                      { label: "Google 2", value: "google2" },
+                      { label: "Accent", value: "accent" }
                     ],
                     defaultValue: "headings"
                   }),

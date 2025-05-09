@@ -1,0 +1,30 @@
+heading: Color Palette
+order: 6
+slug: color-palette
+sections:
+  - spacing: small
+    content:
+      - discriminant: intro
+        value:
+          heading: Primary Color Palette
+      - discriminant: colours
+        value:
+          colourGroup: primaries
+      - discriminant: intro
+        value:
+          heading: Secondary Color Palette
+      - discriminant: colours
+        value:
+          colourGroup: secondaries
+      - discriminant: intro
+        value:
+          heading: Tertiary Color Palette
+      - discriminant: colours
+        value:
+          colourGroup: tertiaries
+      - discriminant: intro
+        value:
+          heading: Neutrals
+      - discriminant: colours
+        value:
+          colourGroup: accents

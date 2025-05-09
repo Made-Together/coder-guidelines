@@ -1,0 +1,82 @@
+heading: Visual Language
+order: 5
+slug: visual-language
+sections:
+  - spacing: default
+    content:
+      - discriminant: intro
+        value:
+          heading: Overview
+          content: >-
+            While Blink is often seen as a simple 2D block cursor, we also have
+            moments of transition into the world of 3D space, creating
+            glass-like textures that symbolize the clarity and openness that our
+            products enable.
+      - discriminant: intro
+        value:
+          heading: Cropping
+          content: >-
+            We use a variety of angles and crops in both light and dark mode to
+            create a flexible visual system. While both modes are used across
+            audiences, dark mode is primarily aimed at developers, and light
+            mode at enterprise leaders. This isn’t a strict rule, rather a
+            guiding principle. Aim for an 80/20 usage split in favor of the
+            intended audience for each mode.
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: Partial crop (light)
+              image: >-
+                /images/visual-language/sections/0/content/2/value/images/0/image.png
+            - title: full crop (light)
+              image: >-
+                /images/visual-language/sections/0/content/2/value/images/1/image.png
+            - title: partial crop (dark)
+              image: >-
+                /images/visual-language/sections/0/content/2/value/images/2/image.png
+            - title: full crop (dark)
+              image: >-
+                /images/visual-language/sections/0/content/2/value/images/3/image.png
+      - discriminant: intro
+        value:
+          heading: Surface Reflections
+          content: >-
+            When we want to be a little more subtle, we can use surface
+            reflections from our supergraphic, allowing us to dial down our
+            visual expression as and when we need to. 
+      - discriminant: fullWidthImage
+        value:
+          image: /images/visual-language/sections/0/content/4/value/image.jpg
+      - discriminant: fullWidthImage
+        value:
+          image: /images/visual-language/sections/0/content/5/value/image.jpg
+      - discriminant: intro
+        value:
+          heading: Usage
+      - discriminant: twoColImages
+        value:
+          images:
+            - title: ENTERPRISE FOCUS - WEB
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/0/image.jpg
+            - title: ENTERPRISE FOCUS - presentations
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/1/image.jpg
+            - title: ENTERPRISE FOCUS - advertising
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/2/image.jpg
+            - title: ENTERPRISE FOCUS - COVERS
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/3/image.jpg
+            - title: DEVELOPER FOCUS - covers
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/4/image.jpg
+            - title: DEVELOPER FOCUS - WEB
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/5/image.jpg
+            - title: DEVELOPER FOCUS - web
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/6/image.jpg
+            - title: DEVELOPER FOCUS - covers
+              image: >-
+                /images/visual-language/sections/0/content/7/value/images/7/image.jpg

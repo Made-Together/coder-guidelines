@@ -24,7 +24,7 @@ export default function IconSet({ icons }: IconSetProps) {
 						{icon.isDownloadable && (
 							<a
 								href={icon.image}
-								className="absolute bottom-2 right-2 flex h-6 w-6 items-center justify-center rounded-default bg-accent text-white md:bottom-4 md:right-4"
+								className="absolute bottom-2 right-2 flex h-6 w-6 items-center justify-center rounded-default bg-black text-white md:bottom-4 md:right-4"
 								download
 								aria-label={`Download ${icon.title || "icon"}`}
 							>

@@ -1,105 +1,69 @@
 heading: Photography
+order: 8
 slug: photography
-order: 6
 sections:
-  - content:
+  - spacing: default
+    content:
       - discriminant: intro
         value:
-          heading: Overview
+          heading: Portraiture
           content: >-
-            Our photography captures four key categories:
-            
-            Patient Portraits Reflecting warmth and optimism.
-            
-            Doctor Portraits Showcasing professionalism and empathy.
-            
-            Doctors with Patients Highlighting trust and care.
-            
-            Sky Symbolising hope and optimism.
+            From imagery to ads, our portraiture captures the essence of
+            clarity, openness, and empowerment through the lens of our
+            customers.
 
 
+            Photography should feel light, warm and optimistic showcasing
+            genuine human emotion and capturing the lives of all kinds of
+            Coders.
+
+
+            This collection of images sets the benchmark for Aria’s art
+            direction and photographic style.
       - discriminant: twoColImages
         value:
           images:
-            - title: Patients
-              image: /patients.jpg
-            - title: Doctors
-              image: /doctors.jpg
-            - title: Doctors & Patients
-              image: /doctors-patients.jpg
-            - title: Sky
-              image: /sky.jpg
+            - image: >-
+                /images/photography/sections/0/content/1/value/images/0/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/1/value/images/1/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/1/value/images/2/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/1/value/images/3/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/1/value/images/4/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/1/value/images/5/image.jpg
       - discriminant: intro
         value:
-          heading: Patients
-          content: Choose authentic, diverse, and hopeful portraits with natural lighting, blue skies, and minimal distractions, reflecting Silna's care and inclusivity.
-      - discriminant: threeColImages
-        value:
-          images:
-            - image: /patient-1.jpg
-            - image: /patient-2.jpg
-            - image: /patient-3.jpg
-            - image: /patient-4.jpg
-            - image: /patient-5.jpg
-            - image: /patient-6.jpg
-      - discriminant: intro
-        value:
-          heading: Doctors
+          heading: Nature
           content: >-
-            Select professional, approachable portraits of doctors in natural settings.
-            
-            Feeling warm and natural lighting with subtle backgrounds, reflecting our ethos of care and trust.
-
-
-      - discriminant: threeColImages
-        value:
-          images:
-            - image: /doctors-1.jpg
-            - image: /doctors-2.jpg
-            - image: /doctors-3.jpg
-            - image: /doctors-4.jpg
-            - image: /doctors-5.jpg
-            - image: /doctors-6.jpg
-      - discriminant: intro
-        value:
-          heading: Doctors & Patients
-          content: >-
-            Focus on natural, empathetic images that capture genuine interactions between doctors and patients.
-            
-            Highlight trust, care, and connection in warm, well-lit environments, ensuring diversity and inclusivity.
-
-
-      - discriminant: threeColImages
-        value:
-          images:
-            - image: /doctors-patients-1.jpg
-            - image: /doctors-patients-2.jpg
-            - image: /doctors-patients-3.jpg
-            - image: /doctors-patients-4.jpg
-            - image: /doctors-patients-5.jpg
-            - image: /doctors-patients-6.jpg
-      - discriminant: intro
-        value:
-          heading: Sky
-          content: >-
-            Choose sky imagery featuring soft, natural gradients with tints of pink that align with our colour palette.
-            
-            Focus on scenes that evoke a sense of calm and optimism in line with our core values.
-
-
+            We also utilise imagery that captures vast open spaces from the
+            natural world that conveys the freedom to build.
       - discriminant: twoColImages
         value:
           images:
-            - image: /sky-1.jpg
-            - image: /sky-2.jpg
-            - image: /sky-3.jpg
-            - image: /sky-4.jpg
+            - image: >-
+                /images/photography/sections/0/content/3/value/images/0/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/3/value/images/1/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/3/value/images/2/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/3/value/images/3/image.jpg
       - discriminant: intro
         value:
-          heading: Colour Grading
-          content: Our colour grading enhances imagery by bringing in warmth and richness, creating a sense of optimism and approachability. The subtle adjustments elevate natural tones, adding depth and vibrancy to the visuals.
+          heading: Color Grading
+          content: >-
+            Our color grading enhances imagery by bringing in warmth and
+            richness, creating a sense of optimism and approachability. The
+            subtle adjustments elevate natural tones, adding depth and vibrancy
+            to the visuals.
       - discriminant: twoColImages
         value:
           images:
-            - image: /portraits.jpg
-            - image: /skies.jpg
+            - image: >-
+                /images/photography/sections/0/content/5/value/images/0/image.jpg
+            - image: >-
+                /images/photography/sections/0/content/5/value/images/1/image.jpg

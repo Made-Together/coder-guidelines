@@ -19,7 +19,7 @@ export default function Intro({ heading, content, sectionNumber, downloadFile, d
 		<div className="grid gap-2 dark:text-white md:grid-cols-2 md:gap-8">
 			<div className="flex flex-col gap-2 md:justify-between">
 				<p className="text-[20px] font-medium">
-					<span className="mr-2 opacity-50">{sectionNumber}</span>
+					<span className="mr-2 text-secondaries-orchid">{sectionNumber}</span>
 					<span className="font-medium">{heading}</span>
 				</p>
 				{downloadFile && <DownloadButton downloadFile={downloadFile} downloadText={downloadText} />}

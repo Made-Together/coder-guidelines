@@ -144,8 +144,9 @@ const formatColorName = (name: string) => {
 };
 
 export default function Colours({ colours }: ColoursProps) {
+	const gridCols = colours.length === 2 || colours.length === 4 || colours.length === 8 ? "md:grid-cols-2" : "md:grid-cols-3";
 	return (
-		<div className="grid w-full grid-cols-1 max-md:gap-6 md:grid-cols-3 md:gap-4">
+		<div className={`grid w-full grid-cols-1 max-md:gap-6 ${gridCols} md:gap-4`}>
 			{colours.map((colour, index) => {
 				const textColorClass = shouldUseWhiteText(colour.colour) ? "text-white" : "text-black";
 				const rgb = hexToRgb(colour.colour);
