@@ -86,6 +86,7 @@ type FullWidthImageContent = BaseContent<
 	{
 		image: string;
 		file?: string;
+		video?: string;
 	}
 >;
 
@@ -242,7 +243,7 @@ export default function Section({
 						case "eyebrow":
 							return <Eyebrow key={key} content={block.value.content} />;
 						case "fullWidthImage":
-							return <FullWidthImage key={key} image={block.value.image} />;
+							return <FullWidthImage key={key} image={block.value.image} video={block.value.video} />;
 						case "values":
 							return <Values key={key} values={block.value.values} />;
 						case "twoBoxText":
