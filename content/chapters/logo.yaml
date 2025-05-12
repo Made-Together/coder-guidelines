@@ -1,6 +1,8 @@
 heading: Logo
 order: 3
 slug: logo
+downloadFile: /downloads/logo/downloadFile.zip
+downloadText: Download Logos
 sections:
   - spacing: default
     content:
