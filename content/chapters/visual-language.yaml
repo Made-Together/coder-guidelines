@@ -12,6 +12,9 @@ sections:
             moments of transition into the world of 3D space, creating
             glass-like textures that symbolize the clarity and openness that our
             products enable.
+      - discriminant: fullWidthImage
+        value:
+          video: /videos/visual-language/sections/0/content/1/value/video.mp4
       - discriminant: intro
         value:
           heading: Cropping
@@ -27,16 +30,16 @@ sections:
           images:
             - title: Partial crop (light)
               image: >-
-                /images/visual-language/sections/0/content/2/value/images/0/image.png
+                /images/visual-language/sections/0/content/3/value/images/0/image.png
             - title: full crop (light)
               image: >-
-                /images/visual-language/sections/0/content/2/value/images/1/image.png
+                /images/visual-language/sections/0/content/3/value/images/1/image.png
             - title: partial crop (dark)
               image: >-
-                /images/visual-language/sections/0/content/2/value/images/2/image.png
+                /images/visual-language/sections/0/content/3/value/images/2/image.png
             - title: full crop (dark)
               image: >-
-                /images/visual-language/sections/0/content/2/value/images/3/image.png
+                /images/visual-language/sections/0/content/3/value/images/3/image.png
       - discriminant: intro
         value:
           heading: Surface Reflections
@@ -46,10 +49,10 @@ sections:
             visual expression as and when we need to. 
       - discriminant: fullWidthImage
         value:
-          image: /images/visual-language/sections/0/content/4/value/image.jpg
+          image: /images/visual-language/sections/0/content/5/value/image.jpg
       - discriminant: fullWidthImage
         value:
-          image: /images/visual-language/sections/0/content/5/value/image.jpg
+          image: /images/visual-language/sections/0/content/6/value/image.jpg
       - discriminant: intro
         value:
           heading: Usage
@@ -58,28 +61,25 @@ sections:
           images:
             - title: ENTERPRISE FOCUS - WEB
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/0/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/0/image.jpg
             - title: ENTERPRISE FOCUS - presentations
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/1/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/1/image.jpg
             - title: ENTERPRISE FOCUS - advertising
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/2/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/2/image.jpg
             - title: ENTERPRISE FOCUS - COVERS
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/3/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/3/image.jpg
             - title: DEVELOPER FOCUS - covers
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/4/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/4/image.jpg
             - title: DEVELOPER FOCUS - WEB
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/5/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/5/image.jpg
             - title: DEVELOPER FOCUS - web
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/6/image.jpg
+                /images/visual-language/sections/0/content/8/value/images/6/image.jpg
             - title: DEVELOPER FOCUS - covers
               image: >-
-                /images/visual-language/sections/0/content/7/value/images/7/image.jpg
-      - discriminant: fullWidthImage
-        value:
-          video: /videos/visual-language/sections/0/content/8/value/video.mp4
+                /images/visual-language/sections/0/content/8/value/images/7/image.jpg
