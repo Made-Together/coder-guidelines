@@ -20,7 +20,7 @@ export default function IconSet({ icons }: IconSetProps) {
 				<div key={index} className="">
 					<div className="relative flex aspect-[1/1] items-center justify-center overflow-hidden rounded-default border border-black/5 dark:border-white/10">
 						{icon.video ? (
-							<video className="h-full w-full object-contain" autoPlay playsInline loop muted preload="metadata">
+							<video className="h-full w-full object-cover" autoPlay playsInline loop muted preload="metadata">
 								<source src={icon.video} type="video/mp4" />
 								<track kind="captions" />
 								Your browser does not support the video tag.
