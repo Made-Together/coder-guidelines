@@ -2,11 +2,11 @@ logo: /images/logo.svg
 favicon: /favicon.jpg
 masthead:
   heading: Masthead
-  image: /masthead/image.png
+  image: /masthead/image.jpg
   alt: Masthead
 footer:
   heading: Footer
-  image: /footer/image.png
+  image: /footer/image.jpg
   alt: Footer
 seo:
   title: Brand Guidelines
