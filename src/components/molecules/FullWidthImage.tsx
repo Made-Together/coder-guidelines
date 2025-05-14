@@ -9,7 +9,7 @@ type FullWidthImageProps = {
 export default function FullWidthImage({ image, video }: FullWidthImageProps) {
 	console.log(video);
 	return (
-		<div className="im relative aspect-[990/640] overflow-hidden rounded-default">
+		<div className="im relative aspect-[990/640] overflow-hidden rounded-default border border-black/5 dark:border-white/10">
 			{video ? (
 				<video className="h-full w-full object-cover" autoPlay playsInline loop muted preload="metadata">
 					<source src={video} type="video/mp4" />
