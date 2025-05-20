@@ -1,11 +1,20 @@
 // Define base colors first
 const baseColors = {
-	white: "#ffffff",
-	black: "#090B0B",
+	white: {
+		hex: "#ffffff",
+		cmyk: "0, 0, 0, 0",
+	},
+	black: {
+		hex: "#090B0B",
+		cmyk: "70, 40, 40, 100",
+	},
 };
 
 const tertiaryColors = {
-	tertiary: "#FDF8F3",
+	tertiary: {
+		hex: "#F8F2F1",
+		cmyk: "10, 12, 8, 0",
+	},
 };
 
 module.exports = {
@@ -33,35 +42,85 @@ module.exports = {
 		extend: {
 			colors: {
 				// Theme colors that reference base colors
-				core: baseColors.black,
-				accent: baseColors.white,
+				core: baseColors.black.hex,
+				accent: baseColors.white.hex,
 				// Primary Colors
-				primaries: baseColors,
-				tertiary: tertiaryColors.tertiary,
+				primaries: {
+					...Object.fromEntries(Object.entries(baseColors).map(([key, value]) => [key, { hex: value.hex, cmyk: value.cmyk }])),
+				},
+				tertiary: tertiaryColors.tertiary.hex,
 				// Secondary Colors
 				secondaries: {
-					magenta: "#F08DFF",
-					purple: "#BC7CFF",
-					ember: "#FF8067",
-					orchid: "#9900B1",
-					violet: "#7511E2",
-					sunset: "#A13000",
+					magenta: {
+						hex: "#F08DFF",
+						cmyk: "20, 60, 0, 0",
+					},
+					purple: {
+						hex: "#BC7CFF",
+						cmyk: "22, 45, 0, 0",
+					},
+					ember: {
+						hex: "#FF8067",
+						cmyk: "0, 61, 59, 0",
+					},
+					orchid: {
+						hex: "#9900B1",
+						cmyk: "48, 100, 0, 9",
+					},
+					violet: {
+						hex: "#7511E2",
+						cmyk: "68, 82, 0, 0",
+					},
+					sunset: {
+						hex: "#A13000",
+						cmyk: "0, 99, 100, 19",
+					},
 				},
 				// Tertiary Colors
 				tertiaries: {
-					haze: "#A19CC8",
-					glacier: "#B8D7F5",
-					sky: "#A4E8F2",
-					twilight: "#4A408F",
-					marine: "#1D4D7D",
-					jade: "#005C6A",
+					haze: {
+						hex: "#A19CC8",
+						cmyk: "44, 38, 0, 0",
+					},
+					glacier: {
+						hex: "#B8D7F5",
+						cmyk: "24, 4, 0, 0",
+					},
+					sky: {
+						hex: "#A4E8F2",
+						cmyk: "37, 0, 0, 0",
+					},
+					twilight: {
+						hex: "#4A408F",
+						cmyk: "92, 97, 0, 0",
+					},
+					marine: {
+						hex: "#1D4D7D",
+						cmyk: "100, 67, 0, 33",
+					},
+					jade: {
+						hex: "#005C6A",
+						cmyk: "98, 21, 11, 49",
+					},
 				},
 				// Accent Colors
 				accents: {
-					shell: "#F8F2F1",
-					linen: "#FBF8F8",
-					cinder: "#18171A",
-					smoke: "#2F2D33",
+					shell: {
+						hex: "#F8F2F1",
+						cmyk: "10, 12, 8, 0",
+					},
+					linen: {
+						hex: "#FBF8F8",
+						cmyk: "5, 6, 3, 0",
+					},
+					cinder: {
+						hex: "#18171A",
+						cmyk: "81, 67, 55, 83",
+					},
+					smoke: {
+						hex: "#2F2D33",
+						cmyk: "71, 53, 55, 70",
+					},
 				},
 			},
 			borderRadius: {

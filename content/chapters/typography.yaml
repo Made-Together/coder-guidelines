@@ -11,7 +11,7 @@ sections:
       - discriminant: fontDisplay
         value:
           type: headings
-          backgroundColour: bg-accents-linen
+          backgroundColour: bg-accents-linen-hex
           textColour: text-black
       - discriminant: intro
         value:
@@ -40,7 +40,7 @@ sections:
       - discriminant: fontDisplay
         value:
           type: google
-          backgroundColour: bg-accents-linen
+          backgroundColour: bg-accents-linen-hex
           textColour: text-black
       - discriminant: fontDisplay
         value:

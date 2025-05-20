@@ -94,7 +94,8 @@ const shouldUseWhiteText = (hex: string) => {
 export type ColoursBlock = {
 	title: string;
 	colour: string;
-	CMYK?: string; // Make CMYK optional since we'll calculate it
+	cmyk?: string; // Optional CMYK override value
+	pantone?: string;
 };
 
 type ColoursProps = {
@@ -121,7 +122,7 @@ function CopyableValue({ label, value, textColorClass }: CopyableValueProps) {
 			<span className="text-[12px] font-medium uppercase">
 				<span className="opacity-50">{label}:</span> {value}
 			</span>
-			<button type="button" onClick={handleCopy} className="opacity-0 transition-opacity hover:!opacity-100 group-hover:opacity-60" title={`Copy ${label}`}>
+			<button type="button" onClick={handleCopy} className="transition-opacity hover:!opacity-100 group-hover:opacity-60 md:opacity-0" title={`Copy ${label}`}>
 				{copied ? <Check size={14} /> : <Copy size={14} />}
 			</button>
 		</div>
@@ -143,16 +144,26 @@ const formatColorName = (name: string) => {
 	);
 };
 
+const formatCmyk = (cmyk: string) => {
+	// Split by any combination of commas, spaces, or dots
+	const values = cmyk.split(/[,\s.]+/).filter(Boolean);
+	// Ensure we have exactly 4 values and join them with commas and spaces
+	if (values.length === 4) {
+		return values.join(", ");
+	}
+	return cmyk; // Return original if not in expected format
+};
+
 export default function Colours({ colours }: ColoursProps) {
-	const gridCols = colours.length === 2 || colours.length === 4 || colours.length === 8 ? "md:grid-cols-2" : "md:grid-cols-3";
 	return (
-		<div className={`grid w-full grid-cols-1 max-md:gap-6 ${gridCols} md:gap-4`}>
+		<div className="grid w-full grid-cols-1 max-md:gap-6 md:grid-cols-3 md:gap-4">
 			{colours.map((colour, index) => {
 				const textColorClass = shouldUseWhiteText(colour.colour) ? "text-white" : "text-black";
 				const rgb = hexToRgb(colour.colour);
-				const cmyk = rgbToCmyk(colour.colour);
+				const rawCmyk = colour.cmyk || rgbToCmyk(colour.colour); // Use override if provided
+				const cmyk = formatCmyk(rawCmyk);
 				const hsl = hexToHsl(colour.colour);
-
+				const pantone = colour.pantone || "N/A";
 				return (
 					<div key={index} className="flex-1">
 						<div className="relative w-full rounded-default border border-black/5 p-6 dark:border-white/10" style={{ backgroundColor: colour.colour }}>
@@ -162,6 +173,7 @@ export default function Colours({ colours }: ColoursProps) {
 								<CopyableValue label="RGB" value={rgb} textColorClass={textColorClass} />
 								<CopyableValue label="HSL" value={hsl} textColorClass={textColorClass} />
 								<CopyableValue label="CMYK" value={cmyk} textColorClass={textColorClass} />
+								{pantone !== "N/A" && <CopyableValue label="Pantone" value={pantone} textColorClass={textColorClass} />}
 							</div>
 						</div>
 					</div>

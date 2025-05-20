@@ -22,15 +22,17 @@ const fullConfig = resolveConfig(tailwindConfig as unknown as Config);
 const colors = fullConfig.theme?.colors as Record<string, any>;
 
 // Helper function to generate color blocks from Tailwind config
-const generateColorBlocks = (colorGroup: Record<string, string> | undefined, groupName: string) => {
+const generateColorBlocks = (colorGroup: Record<string, any>) => {
 	if (!colorGroup) {
-		console.warn(`Color group "${groupName}" not found in Tailwind config`);
+		console.warn("No color group provided");
 		return [];
 	}
-	return Object.entries(colorGroup).map(([name, hex]) => ({
+
+	return Object.entries(colorGroup).map(([name, value]) => ({
 		title: name.charAt(0).toUpperCase() + name.slice(1),
-		colour: hex,
-		CMYK: "0,0,0,0", // Placeholder CMYK value
+		colour: value.hex || value,
+		cmyk: value.cmyk,
+		pantone: value.pantone,
 	}));
 };
 
@@ -41,7 +43,7 @@ const getColorGroup = (groupName: string) => {
 		console.warn(`Color group "${groupName}" not found in Tailwind config`);
 		return [];
 	}
-	return generateColorBlocks(group, groupName);
+	return generateColorBlocks(group);
 };
 
 // Consistent slugify function - matches the one in Guidelines.tsx
