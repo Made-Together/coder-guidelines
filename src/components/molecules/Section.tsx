@@ -62,7 +62,7 @@ type BaseContent<T extends string, V> = {
 type IntroContent = BaseContent<
 	"intro",
 	{
-		heading: string;
+		heading?: string;
 		content: string;
 		downloadFile?: string;
 		downloadText?: string;
@@ -228,7 +228,7 @@ export default function Section({
 
 					switch (block.discriminant) {
 						case "intro":
-							const id = `${chapterNumber}-${slugify(block.value.heading)}`;
+							const id = block.value.heading ? `${chapterNumber}-${slugify(block.value.heading)}` : `${chapterNumber}-intro-${introIndex}`;
 							return (
 								<div key={key} id={id}>
 									<Intro

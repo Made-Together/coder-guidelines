@@ -6,6 +6,17 @@ sections:
     content:
       - discriminant: intro
         value:
+          content: >-
+            Coder is an AI software development company leading the future of
+            autonomous coding. Coder helps teams build fast, stay secure, and
+            scale with control by combining AI coding agents and human
+            developers in one trusted workspace. Coder’s award-winning
+            self-hosted Cloud Development Environment (CDE) gives enterprises
+            the power to govern, audit, and accelerate software development
+            without trade-offs. Learn more at <a href="https://coder.com/"
+            target="_blank">coder.com</a>.
+      - discriminant: intro
+        value:
           heading: Voice Characteristics
           content: >-
             Our tone of voice characteristics align with our conviction, promise
@@ -154,25 +165,25 @@ sections:
           content: 'vision / ethos: brand-level messaging'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/17/value/image.png
+          image: /images/verbal-identity/sections/0/content/18/value/image.png
       - discriminant: eyebrow
         value:
           content: 'What: core value proposition'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/19/value/image.png
+          image: /images/verbal-identity/sections/0/content/20/value/image.png
       - discriminant: eyebrow
         value:
           content: 'how: supporting features & enablers'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/21/value/image.png
+          image: /images/verbal-identity/sections/0/content/22/value/image.png
       - discriminant: eyebrow
         value:
           content: 'why: emotional or strategic outcomes'
       - discriminant: fullWidthImage
         value:
-          image: /images/verbal-identity/sections/0/content/23/value/image.png
+          image: /images/verbal-identity/sections/0/content/24/value/image.png
       - discriminant: intro
         value:
           heading: Style & Mechanics

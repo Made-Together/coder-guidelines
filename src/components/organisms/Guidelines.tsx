@@ -22,7 +22,7 @@ type ChapterSection = {
 };
 
 type ChapterType = {
-	heading: string;
+	heading?: string;
 	sections: ChapterSection[];
 	slug: string;
 	downloadFile?: string;
@@ -131,9 +131,10 @@ export default function Guidelines({ chapters, global }: GuidelinesProps) {
 						const items = chapter.sections.flatMap((section) =>
 							section.content
 								.filter((item): item is Extract<SectionContent, { discriminant: "intro" }> => item.discriminant === "intro")
+								.filter((item) => item.value.heading) // Only include items with headings
 								.map((item) => ({
 									heading: item.value.heading,
-									id: `${index + 1}-${slugify(item.value.heading)}`,
+									id: `${index + 1}-${slugify(item.value.heading!)}`,
 								}))
 						);
 
