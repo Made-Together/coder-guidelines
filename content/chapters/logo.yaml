@@ -10,6 +10,8 @@ sections:
         value:
           heading: Logos
           content: "The Coder logo is one of our most recognizable assets —\_used across all our brand touchpoints for a unified experience.\L\LWe use our primary logo in most cases.\_But if we’re restricted by sizing limitations (such as the website favicon our social avatars), we use our shorthand logo —\_which carries the same aesthetic and sentiment as our primary logo."
+          downloadFile: /downloads/logo/sections/0/content/0/value/downloadFile.zip
+          downloadText: Download logos
       - discriminant: twoColImages
         value:
           images:
